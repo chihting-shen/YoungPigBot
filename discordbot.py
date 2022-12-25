@@ -5,8 +5,6 @@ from pprint import pprint
 # 輸入自己Bot的TOKEN碼
 TOKEN = os.environ['TOKEN']
 
-import discord
-
 client = discord.Client()
 
 @client.event
