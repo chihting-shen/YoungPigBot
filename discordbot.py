@@ -1,7 +1,11 @@
 import discord
+import googletrans
+import os
 from pprint import pprint
 # 輸入自己Bot的TOKEN碼
+TOKEN = os.environ['TOKEN']
 
+import discord
 
 client = discord.Client()
 
@@ -26,4 +30,4 @@ async def on_message(message):
         await message.channel.send(tmp[1])
 
 # Bot起動
-client.run(OTk4ODI5NTkyNTgyMzExOTQ2.G_RlH2.gl7Rc-K4oiObff4RbP1CEZp1M0mm2VUj5lbXEg)
+client.run(TOKEN)
