@@ -1,2 +1,1 @@
-heroku ps:scale worker-1
-discordbot: python discordbot.py
+discordbot: python3 discordbot.py
